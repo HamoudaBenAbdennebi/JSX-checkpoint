@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import rtx from "./img1.jpg";
+import gtx from "./img2.jpg";
+import BO3 from "./bo3.mp4";
+import "./style.css";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div style={{ border: "solid 1px black", maxWidth: "100vw" }}>
+        <h1 className="title red">Your name here</h1>
+        <br />
+        <img src={rtx} alt="IMG 1" />
+        <br />
+        <img src={gtx} alt="IMG 2" />
+      </div>
+      <video style={{ width: "320px", height: "240px" }} controls>
+        <source src={BO3} type="video/mp4" />
+      </video>
+    </>
   );
 }
 
