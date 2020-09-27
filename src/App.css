@@ -1,0 +1,23 @@
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1c2b36;
+  height: 100vh;
+}
+.Full {
+  background-color: #23272a;
+  padding: 4%;
+  border-radius: 5%;
+  box-shadow: black 2px 2px;
+}
+p {
+  max-width: 400px;
+  color: white;
+  font-size: 20px;
+}
